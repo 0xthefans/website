@@ -273,7 +273,7 @@
   const fontAsset = fontLoader.parse(fontFile);
   
   setTimeout(() => {
-    const img = new AnimatedImage('../resources/images/logo.png');
+    const img = new AnimatedImage('resources/images/logo.png');
     img.position.x -= img.basePosition * 0.5;
     img.position.y -= -2;
     webgl.add(img);
