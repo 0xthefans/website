@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Zenrizon</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}" />
+        <link rel="shortcut icon" href="resources/images/logo.ico"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>   
+
+        <link href="resources/style/index.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="resources/script/jquery.min.js"></script>
+        <script type="text/javascript" src="resources/script/fontfile.js"></script>
+    </head>
+
+    <body>
+        <div class="content">
+            <div id='contentSection'>
+                <div id='canvasSection'></div>
+                <div id='buttonSection'>
+                    <button id="launch-btn" class="btn btn-primary">Launch App</button>
+                    <button id="demo-btn" class="btn btn-secondary">View Demo</button>
+                </div>
+                <div id="socialSection">
+                    <button class="btn btn-link"><img src="resources/images/twitter-line.png"/> </button>
+                    <button class="btn btn-link"><img src="resources/images/discord-line.png"/> </button>
+                    <button class="btn btn-link"><img src="resources/images/youtube-line.png"/> </button>
+                </div>
+                <div id="hackathonSection">
+                    <div class="bubble">
+                        <p>
+                            Honorable mention in Solana Hyperdrive Hackathon
+                        </p>
+                    </div>
+                    <button class="btn btn-link" ><img src="resources/images/solana.webp"/></button>
+                </div>
+                <div id="footerSection">
+                    <p> Copyright © 2023 Zenrizon All Rights Reserved </p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="resources/script/threejs.js"></script>
+        <script type="text/javascript" src="resources/script/index.js"></script>
+    </body>
+
+</html>
