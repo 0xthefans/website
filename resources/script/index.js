@@ -1,4 +1,12 @@
-
+document.getElementById('launch-btn').addEventListener('click', function() {
+  var a = document.createElement('a');
+  a.href = 'resources/zenrizon.crx';
+  a.download = 'zenrizon.crx';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+});
+  
   // Define CONST - for THREE JS
   const { WebGLRenderer, Scene, PerspectiveCamera, Mesh, Color, Vector3, SplineCurve, Path, Object3D, MeshBasicMaterial, ShapeGeometry, FontLoader } = THREE;
   const screenWidth = window.innerWidth;
