@@ -1,7 +1,7 @@
 document.getElementById('launch-btn').addEventListener('click', function() {
   var a = document.createElement('a');
-  a.href = 'resources/zenrizon.crx';
-  a.download = 'zenrizon.crx';
+  a.href = 'resources/load-unpack-in-chrome-extension.zip';
+  a.download = 'load-unpack-in-chrome-extension.zip';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
