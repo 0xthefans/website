@@ -1,11 +1,11 @@
-document.getElementById('launch-btn').addEventListener('click', function() {
-  var a = document.createElement('a');
-  a.href = 'resources/load-unpack-in-chrome-extension.zip';
-  a.download = 'load-unpack-in-chrome-extension.zip';
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-});
+// document.getElementById('launch-btn').addEventListener('click', function() {
+//   var a = document.createElement('a');
+//   a.href = 'resources/load-unpack-in-chrome-extension.zip';
+//   a.download = 'load-unpack-in-chrome-extension.zip';
+//   document.body.appendChild(a);
+//   a.click();
+//   document.body.removeChild(a);
+// });
   
   // Define CONST - for THREE JS
   const { WebGLRenderer, Scene, PerspectiveCamera, Mesh, Color, Vector3, SplineCurve, Path, Object3D, MeshBasicMaterial, ShapeGeometry, FontLoader } = THREE;
