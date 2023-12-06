@@ -289,7 +289,7 @@
   }, 300);
   
   setTimeout(() => {
-    const text = new AnimatedText('Zenrizon', fontAsset);
+    const text = new AnimatedText('TheFans', fontAsset);
     text.position.x -= text.basePosition * 0.5;
     text.position.y -= -0.8;
     webgl.add(text);
